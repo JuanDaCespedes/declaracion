@@ -1,6 +1,13 @@
 let si = document.getElementById('si');
+// let url = "https://github.com/JuanDaCespedes/declaracion/tree/main/img/Sami.gif"
 si.addEventListener("click",function(e){
-    alert("Lo se tu me quieres a mi...");
+    Swal.fire({
+        title: 'Me Haces Feliz!',
+        width: 600,
+        padding: '5em',
+        background: 'url(img/Sami.gif)'
+        
+      });
 });
 let no = document.getElementById('no');
 no.addEventListener("mousemove",function(e){
